@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:width="20dp"
+        android:hint="Enter the salary"
+        android:id="@+id/ETsalary"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calculate Tax Amount"
+        android:textSize="20dp"
+        android:layout_below="@+id/ETsalary"
+        android:id="@+id/btnCal"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnCal"
+        android:id="@+id/ETview"
+        android:textSize="20dp"
+        android:text="The tax amount is"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Tview"
+        android:layout_centerInParent="true"
+        android:textSize="20dp"/>
+    <EditText
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:id="@+id/etTax"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        />
+</RelativeLayout>
